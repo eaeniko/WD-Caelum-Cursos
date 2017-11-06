@@ -59,3 +59,10 @@ footer img {
 	text-shadow: 2px 2px 5px black;
 	text-transform: uppercase;
 }
+a {
+	text-decoration: none;
+	
+}
+a:hover {
+	color: white;
+}
