@@ -1,0 +1,61 @@
+body {
+	font-family: Arial; 
+}
+p {
+	padding: 0 40px;
+}
+
+.container {
+	width: 70%;
+	margin: 0 auto;
+	padding: 0px;
+	position: relative;
+}
+
+.titulo {
+	background: url(../img/sobre-background.jpg);
+	padding: 5px;
+}
+.img-centro {
+	border: 2px solid #CCC;
+	border-radius: 2px;
+	margin: 0 auto;
+	background: #F2EDED;
+	padding: 10px;
+	display: table;
+	text-align: center;
+
+}
+.img-lateral {
+	border: 2px solid #CCC;
+	border-radius: 2px;
+	margin: 0 auto;
+	background: #F2EDED;
+	padding: 10px;
+	display: table;
+	text-align: center;
+	float: right;
+	margin-left: 5px;
+
+}
+figcaption {
+	margin-top: 5px;
+	font-style: italic;
+}
+
+footer img {
+	vertical-align: middle;
+	margin-right: 30px;
+	width: 10%;	
+}
+.btn {
+	background: lightblue;
+	padding: 4px;
+	text-align: center;
+	margin: 20px;
+	font-weight: bold;
+
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	text-transform: uppercase;
+}
