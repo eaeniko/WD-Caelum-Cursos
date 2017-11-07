@@ -64,5 +64,6 @@ a {
 	
 }
 a:hover {
-	color: white;
+	color: #fec63e;
+	text-shadow: 5px 5px 5px black;
 }
