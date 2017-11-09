@@ -1,0 +1,205 @@
+/*Estilos Gerais*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: black;
+}
+p {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+header {
+    position: relative;
+}
+
+.container {
+    position: relative;
+
+    width: auto;
+    max-width: 940px;
+    margin: 0 auto;
+}
+/* Botões*/
+
+.link a:hover {
+    color: #8b9dc3;
+    border-color: #8b9dc3;
+}
+/*Header*/
+.carrinho {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 100px;
+    padding-right: 27px;
+
+    font-size: 12px;
+
+    text-align: right;
+
+    background: url(../img/sacola.png) no-repeat;
+    background-position: right;
+    background-size: auto 100%;
+}
+
+
+.header-menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.header-menu {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    display: inline-block;
+
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+
+    color: #fec63e;
+}
+/*main*/
+.busca {
+    float: left;
+}
+.busca input {
+    vertical-align: middle;
+}
+.departamento {
+    float: left;
+    clear: both;
+}
+.departamento li {
+    border-bottom: 1.5px solid #dcdcdc;
+}
+.departamento li:last-child {
+    border-bottom: 10px solid #dcdcdc;
+}
+.departamento,
+.departamento a,
+.departamento h2,
+.busca h2 {
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    color: grey;
+}
+.departamento h2,
+.busca h2,
+.busca form {
+    width: 200px;
+    padding: 10px;
+    margin-right: 10px;
+
+    background-color: #dcdcdc;
+}
+.departamento li {
+    margin: 10px;
+}
+.departamento a {
+    text-decoration: none;
+
+    color: #333;
+}
+.departamento h2 {
+    margin-top: 10px;
+}
+
+/* Painel - Novidade - Mais vendidos*/
+
+.painel a {
+    text-align: center;
+
+    color: #333;
+}
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
+.novidades {
+    border-radius: 5px;
+    background-color: #f5dcdc;
+    box-shadow: 1px 1px 5px #555;
+}
+.mais-vendidos {
+    border-radius: 5px;
+    background-color: #dcdcf5;
+    box-shadow: 1px 1px 5px #555;
+}
+.vitrine {
+    display: inline-block;
+    width: 49%;
+    margin-right: 5px;
+}
+.painel li {
+    display: inline-block;
+}
+.painel figure {
+    width: 100%;
+    padding: 4px;
+}
+.painel h2::before {
+    padding-right: 5px;
+
+    content: "\2756";
+
+    opacity: .4;
+}
+.sub-menu li {
+    display: none;
+}
+li:hover .sub-menu li {
+    display: block;
+    padding-left: 10px;
+}
+.sub-menu a {
+    font-weight: normal;
+
+    text-transform: capitalize;
+
+    color: grey;
+}
+
+/* Footer*/
+
+.footer {
+    padding: 10px 0;
+
+    background: black;
+}
+.footer ul {
+    float: right;
+}
+
+.footer a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+
+    font-size: 0;
+
+    white-space: nowrap;
+    text-indent: -9999px;
+
+    color: transparent;
+}
+
+.footer li {
+    display: inline-block;
+
+    line-height: 0;
+}
+[href*="facebook.com"] {
+    background: url(../img/facebook.png);
+}
+[href*="twitter.com"] {
+    background: url(../img/twitter.png);
+}
