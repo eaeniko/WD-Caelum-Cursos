@@ -44,6 +44,9 @@ header {
     background-position: right;
     background-size: auto 100%;
 }
+@media screen {
+	
+}
 
 
 .header-menu li {
@@ -138,6 +141,8 @@ header {
     display: inline-block;
     width: 49%;
     margin-right: 5px;
+
+    vertical-align: top;
 }
 .painel li {
     display: inline-block;
@@ -148,6 +153,7 @@ header {
 }
 .painel h2::before {
     padding-right: 5px;
+    padding-left: 4px;
 
     content: "\2756";
 
@@ -168,6 +174,23 @@ li:hover .sub-menu li {
     color: grey;
 }
 
+.miniatura li:hover {
+    transition: .8s;
+    transform: scale(1.2) rotate(-5deg);
+}
+
+.miniatura li:nth-child(2n):hover {
+    transition: .8s;
+    transform: scale(1.2) rotate(5deg);
+}
+.miniatura li:hover figcaption {
+    transition: .8s;
+
+    background-color: white;
+}
+.miniatura figcaption {
+    padding: 5px;
+}
 /* Footer*/
 
 .footer {
