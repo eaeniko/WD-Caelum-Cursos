@@ -6,6 +6,7 @@
 		<title>Home - Mirror Fashion</title>
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/produto-checkout.css">
 	</head>
 	<body>
 		
