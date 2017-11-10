@@ -91,7 +91,7 @@
 
 
 		<div class="btn">
-			<p><a href="home.html">Compre já em nossa loja!</a></p>
+			<p><a href="index.php">Compre já em nossa loja!</a></p>
 		</div>
 		<footer>
 			<div>

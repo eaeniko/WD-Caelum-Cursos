@@ -1,15 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<title>Home - Mirror Fashion</title>
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/index.css">
-	</head>
-	
-	<body>
-
 		<?php include "include/header.php" ?>
 
 		<hr>
@@ -110,7 +98,7 @@
 								
 								<figure>
 									<img src="img/produtos/miniatura1.png" alt="Mirror Fashion">
-									<figcaption>Teste R$25,00</figcaption>
+									<figcaption>Camisa florida R$110,00</figcaption>
 								</figure>
 								
 							</a>	
@@ -121,7 +109,7 @@
 								
 								<figure>
 									<img src="img/produtos/miniatura2.png" alt="Mirror Fashion">
-									<figcaption>Teste R$25,00</figcaption>
+									<figcaption>Camiseta Bad to the Bone R$59,90</figcaption>
 								</figure>
 								
 							</a>	
@@ -132,7 +120,7 @@
 								
 								<figure>
 									<img src="img/produtos/miniatura3.png" alt="Mirror Fashion">
-									<figcaption>Teste R$25,00</figcaption>
+									<figcaption>Camisa manga comprida simples R$89,00</figcaption>
 								</figure>
 								
 							</a>	
@@ -187,7 +175,7 @@
 								
 								<figure>
 									<img src="img/produtos/miniatura7.png" alt="Mirror Fashion">
-									<figcaption>Teste R$25,00</figcaption>
+									<figcaption>Camiseta Gola V R$25,00</figcaption>
 								</figure>
 								
 							</a>	
@@ -198,7 +186,7 @@
 								
 								<figure>
 									<img src="img/produtos/miniatura8.png" alt="Mirror Fashion">
-									<figcaption>Teste R$25,00</figcaption>
+									<figcaption>Camiseta R$25,00</figcaption>
 								</figure>
 								
 							</a>	
@@ -209,7 +197,7 @@
 								
 								<figure>
 									<img src="img/produtos/miniatura9.png" alt="Mirror Fashion">
-									<figcaption>Teste R$25,00</figcaption>
+									<figcaption>Camisa Xadrex Feminina R$60,00</figcaption>
 								</figure>
 								
 							</a>	
@@ -255,18 +243,4 @@
 		</main>
 
 
-		<footer class="footer">
-			<div class="container">
-				<img src="img/logo-rodape.png" alt="Mirror Fashion">
-				
-
-				<ul> 
-					<li><a href="www.facebook.com/mirrorfashion">Facebook Mirror Fashion</a></li>
-					<li><a href="www.twitter.com/mirrorfashion">Twitter Mirror Fashion</a></li>
-				</ul>
-			</div>
-		</footer>
-			
-	</body>
-
-</html>
+		<?php include "include/footer.php" ?>
