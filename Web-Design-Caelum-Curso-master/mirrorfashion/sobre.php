@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 	<head>
-		
-		<meta charset="utf-8">
-		<title>Mirror Fashion</title>
-		<link rel="stylesheet" href="css/style.css">
-	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Home - Mirror Fashion</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/index.css">
 	</head>
 
+
 	<body class="container">
+	<?php include "include/header.php" ?>
+
 		<img src="img/logo.png" alt="Logo Mirror Fashion">
 		<h1 class="titulo">A Mirror Fashion</h1>
 
@@ -90,15 +93,7 @@
 			</ul>
 
 
-		<div class="btn">
-			<p><a href="index.php">Compre já em nossa loja!</a></p>
-		</div>
-		<footer>
-			<div>
-				<img src="img/logo.png" alt="Logo">
-				&copy; Copyright Mirror Fashion
-			</div>
-		</footer>
+			<?php include "include/footer.php" ?>
 
 	</body>
 

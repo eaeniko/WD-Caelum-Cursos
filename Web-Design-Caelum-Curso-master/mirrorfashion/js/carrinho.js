@@ -6,7 +6,7 @@ function calculaTotal() {
 
 
 	document.querySelector("#total").textContent =  (quantidade * preco ).toFixed(2).replace(".",",").replace("R$"," ");
-	console.log(preco)
+
 
 }
 

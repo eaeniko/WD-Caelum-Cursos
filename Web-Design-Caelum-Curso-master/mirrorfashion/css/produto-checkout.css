@@ -1,0 +1,50 @@
+label:after {
+    position: absolute;
+
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    box-sizing: border-box;
+
+    content: "";
+
+    border-radius: 50%;;
+}
+
+input[type="radio"]:checked + label:after {
+    border: 3px solid rgba(0,0,0,.4);
+}
+label img {
+    display: none;
+}
+
+input[type="radio"]:checked + label img {
+    display: block;
+}
+
+
+label[for="rosa"]:after {
+    background-color: pink;
+}
+label[for="azul"]:after {
+    left: 50px;
+
+    background-color: blue;
+}
+label[for="verde"]:after {
+    left: 100px;
+
+    background-color: green;
+}
+input[type=radio] {
+    display: none;
+}
+.cores {
+    position: relative;
+
+    padding-top: 90px;
+}
+.cores label:after {
+    position: absolute;
+    top: 30px;
+}

@@ -11,6 +11,6 @@
 			</div>
 		</footer>
 			
-	</body>
+	
 
 </html>

@@ -177,7 +177,9 @@ header {
 .vitrine {
     display: inline-block;
     width: 49%;
+    margin-top: 5px;
     margin-right: 5px;
+    margin-bottom: 20px;
 
     vertical-align: top;
 }
@@ -228,8 +230,14 @@ li:hover .sub-menu li {
     background-color: white;
 }
 .miniatura figcaption {
-    padding: 5px;
+    width: 120px;
+    margin-bottom: 5px;
+    margin-left: 13px;
 }
+.miniatura li {
+    vertical-align: top;
+}
+
 /* Footer*/
 
 .footer {
@@ -241,7 +249,7 @@ li:hover .sub-menu li {
     float: right;
 }
 
-.footer a {
+.social a {
     display: inline-block;
     width: 32px;
     height: 32px;
@@ -264,4 +272,7 @@ li:hover .sub-menu li {
 }
 [href*="twitter.com"] {
     background: url(../img/twitter.png);
+}
+[href*="googleplus.com"] {
+    background: url(../img/googleplus.png);
 }
