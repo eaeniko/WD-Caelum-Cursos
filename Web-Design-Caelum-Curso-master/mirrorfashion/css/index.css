@@ -2,6 +2,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+@media(max-width: 479px) {
+    body {
+        font-size: 12px;
+        font-weight: 18px;
+    }
+}
+
 a {
     color: black;
 }
@@ -20,6 +27,11 @@ header {
     width: auto;
     max-width: 940px;
     margin: 0 auto;
+}
+@media(max-width: 479px) {
+    .container {
+        width: 200%;
+    }
 }
 /* Botões*/
 
@@ -44,10 +56,11 @@ header {
     background-position: right;
     background-size: auto 100%;
 }
-@media screen {
-	
+@media(max-width: 479px) {
+    .carrinho {
+        display: none;
+    }
 }
-
 
 .header-menu li {
     display: inline-block;
@@ -65,6 +78,30 @@ header {
     line-height: 20px;
 
     color: #fec63e;
+}
+@media(max-width: 479px) {
+    .container h1 img {
+        max-width: 50%;
+    }
+    .container,
+    .header-menu h1 {
+        text-align: center;
+    }
+
+    .header-menu {
+        position: static;
+
+        text-align: center;
+    }
+    .header-menu {
+        position: static;
+
+        text-align: center;
+    }
+    .header-menu ul li {
+        display: inline-block;
+        margin: 5px;
+    }
 }
 /*main*/
 .busca {
@@ -165,6 +202,8 @@ header {
 li:hover .sub-menu li {
     display: block;
     padding-left: 10px;
+
+    transform: rotate(2deg);
 }
 .sub-menu a {
     font-weight: normal;
