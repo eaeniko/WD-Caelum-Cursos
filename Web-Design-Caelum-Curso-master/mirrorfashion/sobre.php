@@ -4,16 +4,13 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<title>Home - Mirror Fashion</title>
-		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 
 
 	<body class="container">
 	<?php include "include/header.php" ?>
-
-		<img src="img/logo.png" alt="Logo Mirror Fashion">
-		<h1 class="titulo">A Mirror Fashion</h1>
 
 		<p>
 			A Mirror Fashion é a maior empresa comércio eletrônico no segmento de moda em todo o mundo. 
